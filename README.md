@@ -1,114 +1,111 @@
-# Camping Simulator
+# Survival Simulator: Wild Horizons
 
-![Banner Conceptual](https://i.imgur.com/placeholder.jpeg)  
-*Imagen conceptual de los paisajes y la experiencia chill del juego.*
+**Tagline:** Explore. Survive. Adapt.
 
----
+**Descripción del Proyecto:**  
+Survival Simulator: Wild Horizons es un juego de supervivencia en múltiples entornos extremos y variados. Inspirado en los juegos de supervivencia más populares, este proyecto busca ofrecer una experiencia diversa donde cada partida puede ser completamente distinta. Los jugadores deben gestionar recursos, salud, hambre, sed, clima, fauna y terreno para sobrevivir, con objetivos opcionales que permiten jugar de manera relajada o con un enfoque desafiante.
 
-## 🎯 Concepto del juego
-**Camping Simulator** es un juego de supervivencia y exploración chill donde los jugadores experimentan la vida al aire libre, acampando en paisajes realistas. El juego combina libertad de exploración, construcción de campamentos, minijuegos inspirados en la vida real y mecánicas estratégicas de supervivencia y gestión de recursos.  
-
-El jugador puede explorar mapas limitados (~2 km), construir su carpa y fogata, recolectar recursos, pescar y cocinar, mientras interactúa con un sistema dinámico de fauna y entorno que responde a sus acciones.
+El juego soporta **multijugador**, permitiendo cooperar o competir, así como modos de juego diferentes que amplían la rejugabilidad.
 
 ---
 
-## 🕹 Mecánicas principales
+## 🎮 Modos de Juego
 
-### 1. Exploración y construcción
-- Mapas inspirados en biomas reales (Torres del Paine, selvas tropicales, bosques europeos).  
-- Libertad de construcción: carpa, fogata, muebles básicos.  
-- Exploración de rincones ocultos, cuevas, ríos y miradores.  
+### 1. Supervivencia en el Pacífico
+- **Escenario:** Isla tropical inspirada en *Stranded Deep*.  
+- **Objetivo opcional:** Ser rescatado usando una pistola y 2 bengalas, o sobrevivir indefinidamente explorando la isla.  
+- **Mecánicas:** Construcción básica de refugios, pesca, recolección de recursos, gestión de hambre y sed, fauna marina hostil.
 
-### 2. Minijuegos de supervivencia
-- **Pesca**: con sistema de reproducción y escasez dinámico.  
-- **Fogata**: encendido, mantenimiento y protección contra lluvia/viento.  
-- **Cocinar**: recetas simples con efectos de supervivencia.  
-- **Recolecta de recursos**: frutas, madera, agua.  
-- **Modo hardcore**: autosustentabilidad infinita y exploración ilimitada con balance de dificultad.  
+### 2. Bosque
+- **Escenario:** Bosque denso inspirado en *The Forest*.  
+- **Objetivo opcional:** Curar heridas y llegar a la civilización o sobrevivir indefinidamente.  
+- **Mecánicas:** Combate con depredadores, construcción de refugios, gestión de hambre, sed y salud física.
 
-### 3. Sistema de recursos dinámico
-- Extinción y reproducción de fauna según acciones del jugador.  
-- Regeneración de recursos limitada por bioma y condiciones ambientales (clima, depredadores).  
-- Introduce consecuencias reales y estrategia para la supervivencia.  
+### 3. Nieve
+- **Escenario:** Región nevada inspirada en *The Long Dark*.  
+- **Objetivo opcional:** Sobrevivir hasta que pase el invierno y llegar a la civilización, o sobrevivir indefinidamente.  
+- **Mecánicas:** Gestión de frío, caza y pesca en hielo, construcción de refugios resistentes al clima extremo.
 
-### 4. Estadísticas, retos y rejugabilidad
-- **Leaderboards**: medir días sobrevividos, minijuegos completados y logros especiales.  
-- **Retos**: sobrevivir sin carpa, sin fogata, solo con pesca, etc.  
-- **Exploración incentivada**: zonas que se agotan requieren buscar nuevas áreas.  
+### 4. Supervivencia en la Selva
+- **Escenario:** Selva amazónica inspirada en *Green Hell*.  
+- **Objetivo opcional:** Ser rescatado por un equipo de ayuda o perderse explorando la selva indefinidamente.  
+- **Mecánicas:** Gestión de flora y fauna peligrosa, crafting de herramientas primitivas, navegación en terreno denso.
 
----
+### 5. Acampar
+- **Escenario:** Zona tipo Torres del Paine, diseñada para relax.  
+- **Objetivo opcional:** Simplemente acampar y disfrutar, el final es empacar y marcharse cuando el jugador quiera.  
+- **Mecánicas:** Montaje de carpa, fogata, cocina simple, interacción mínima con fauna.
 
-## 🎨 Gráficos y estética
-- Estilo realista tipo **The Forest 2014 / Firewatch**.  
-- Optimizado para PCs de gama baja con posibilidad de escalar a **Ultra** en PCs de alta gama usando Unity URP/HDRP.  
-- Paisajes inmersivos, iluminación ambiental, cielos dinámicos y agua realista.  
+### 6. Supervivencia Primitiva
+- **Escenario:** Tierra salvaje sin armas modernas.  
+- **Objetivo opcional:** Sobrevivir hasta encontrar tu tribu, o jugar indefinidamente explorando.  
+- **Mecánicas:** Caza y recolección con herramientas primitivas, construcción rudimentaria, gestión básica de hambre y sed.
 
----
+### 7. Modo Revenant
+- **Escenario:** Terreno variado con peligro de fauna.  
+- **Objetivo opcional:** Arrastrarse y sobrevivir hasta curar la pierna y llegar al sureste donde la civilización puede rescatarlo, o sobrevivir indefinidamente.  
+- **Mecánicas:** Gestión de heridas graves, hambre, sed, frío, construcción mínima para refugio.
 
-## ⚙️ Detalles técnicos
+### 8. Supervivencia Urbana
+- **Escenario:** Ciudad post-apocalíptica.  
+- **Objetivo opcional:** Llegar a un “Eden” de refugiados o sobrevivir indefinidamente en la ciudad.  
+- **Mecánicas:** Recolección de recursos urbanos, combate con fauna y enemigos humanos, gestión de hambre, sed y salud.
 
-- **Motor**: Unity 2023 (URP para base, HDRP opcional para builds Ultra).  
-- **Lenguaje principal**: C#  
-- **Multijugador**: Co-op para 2 jugadores usando networking ligero.  
-- **Assets**: Prefabs y assets gratuitos para acelerar desarrollo inicial.  
-- **Sistemas dinámicos**:  
-  - Regeneración y procreación de fauna.  
-  - Sistema de minijuegos y gestión de recursos.  
-  - Leaderboards y retos online/locales.  
+### 9. Realidad Alterna
+- **Escenario:** *(Por definir)*  
+- **Objetivo opcional:** *(Por definir)*  
+- **Mecánicas:** *(Por definir, editable para futuras ideas)*
 
----
-
-## ⏱ Estimaciones de desarrollo
-
-| Fase | Contenido | Tiempo aproximado |
-|------|-----------|-----------------|
-| MVP | 1 mapa (~2 km), construcción básica, minijuegos, stats, modo chill | 3 meses (2 devs full-time) |
-| Lanzamiento completo | Leaderboards, retos, modo hardcore, optimización, polish | +1 mes |
-| DLCs futuros | Nuevos mapas, fauna avanzada, IA mejorada, nuevos retos | 2-3 meses por DLC |
-
-**Total inicial para demo jugable:** ~3 meses  
-**Total para versión base completa:** ~4 meses  
-**DLCs y expansión:** 2-3 meses cada uno (post-lanzamiento)
+### 10. Desierto Extremo
+- **Escenario:** *(Por definir)*  
+- **Objetivo opcional:** *(Por definir)*  
+- **Mecánicas:** *(Por definir, editable para futuras ideas)*
 
 ---
 
-## 💡 Expansión futura
-- Nuevos mapas con biomas variados y fauna única.  
-- Minijuegos avanzados (cocina compleja, pesca con mecánicas realistas).  
-- IA de animales más compleja, migración y eventos climáticos dinámicos.  
-- Contenido DLC: cada paquete 5-8 USD, incluyendo mapas y mecánicas nuevas.  
+## ⚙️ Detalles Técnicos
+
+- **Motor:** Unity (Standard Pipeline)  
+- **Gráficos:** Nivel 2014, optimizados para PCs de gama media, escalables hasta Ultra.  
+- **Multijugador:** Soporte completo con modos cooperativos y competitivos.  
+- **Sistemas incluidos:**  
+  - Guardado de partidas y checkpoints.  
+  - Menú principal funcional.  
+  - Gestión de recursos básicos: hambre, sed, temperatura, salud.  
+  - Construcción de refugios y fogatas.  
+  - Sistema de fauna básica y depredadores.
+
+- **Sistemas a implementar:**  
+  - Generación de mapas por modo de juego.  
+  - Minijuegos de pesca, caza y supervivencia.  
+  - Leaderboards y desafíos opcionales.  
+  - Objetivos secundarios y misiones opcionales por modo.  
 
 ---
 
-## 💵 Estrategia de lanzamiento
-- **Demo gratuita:** permite probar mecánicas y generar hype.  
-- **Versión base:** USD 14.99, con 1 mapa completo, minijuegos y modo chill.  
-- **DLCs futuros:** 5-8 USD por contenido adicional, mapas y mejoras.  
-- **Objetivo:** balancear adquisición de jugadores, monetización y expansión gradual.
+## ⏱️ Tiempo Aproximado de Desarrollo
+
+- **Versión SP inicial con 10 modos:** ~6-9 meses para 1 programador con experiencia básica en Unity y 1 diseñador creativo.  
+- **Implementación multijugador:** +2-3 meses.  
+- **Optimización y testing:** +1-2 meses.  
+- **Total estimado:** 9-14 meses para un producto mínimo funcional completo con multijugador.
 
 ---
 
-## 🎮 Experiencia del jugador
-- **Chill y relajante:** acampar, explorar, pescar, disfrutar paisajes.  
-- **Competitiva y estratégica:** leaderboards, retos, modo hardcore.  
-- **Rejugable:** cada mapa y bioma ofrece nuevas experiencias y decisiones.  
-- **Social:** co-op 2 jugadores, interacción significativa pero sencilla.  
+## 💡 Concepto de Monetización
+
+- **Precio base:** $14.99 USD  
+- **DLCs futuros:** $5-8 USD cada uno, incluyendo nuevos modos, mapas y fauna.  
+- **Estrategia:** Demo gratuita con modo acampar para atraer jugadores, lanzamiento completo con todos los modos desbloqueados.  
 
 ---
 
-## 📈 Valor para CV y portfolio
-- Demuestra **capacidad de ejecutar un proyecto completo**, desde diseño y programación hasta polish y lanzamiento.  
-- Evidencia experiencia en: Unity, C#, sistemas de recursos dinámicos, networking, UI y optimización.  
-- Proyecto jugable y expandible que destaca habilidades técnicas, creatividad y autonomía.  
+## 📌 Notas Adicionales
+
+- Todos los modos de juego tienen **objetivos opcionales**, permitiendo al jugador elegir entre supervivencia infinita o completar la meta y ser rescatado.  
+- Los modos “Realidad Alterna” y “Desierto Extremo” están preparados para **futuras ideas**, listos para expandir el juego sin reestructurar la base.  
+- La propuesta permite agregar **eventos dinámicos, clima extremo y fauna avanzada**, manteniendo alta rejugabilidad.  
 
 ---
 
-## 🔗 Contacto / Recursos
-- Motor: [Unity](https://unity.com/)  
-- Assets gratuitos recomendados: [Unity Asset Store Free](https://assetstore.unity.com/top-assets/free)  
-- Repositorio ejemplo: *[Tu repositorio aquí]*  
-
----
-
-**Resumen en una frase:**  
-*"Camping Simulator es un juego de supervivencia chill y estratégico, donde acampar, explorar y gestionar recursos se combina con minijuegos y retos dinámicos en mapas realistas, con rejugabilidad infinita y posibilidad de expansión futura."*  
+**¡Prepárate para explorar, sobrevivir y adaptarte en cada horizonte salvaje!**
